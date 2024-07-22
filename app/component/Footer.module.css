@@ -1,0 +1,47 @@
+.footer {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 100%;
+    padding: 2% 10%;
+    position: relative;
+}
+
+
+.footerInner {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerInner p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.lists {
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.headings {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 10%;
+}
+
+.iconContainer {
+    padding-left: 7%;
+}
+
+.logoImg {
+    object-fit: contain;
+    margin-top: 0;
+}
